@@ -3,6 +3,9 @@ img {
 }
 .header {
   height: 10%;
+  background-color: #201F20;
+  color:  rgb(235, 238, 242);
+  justify-content: center;
 }
 span {
   display: flex;

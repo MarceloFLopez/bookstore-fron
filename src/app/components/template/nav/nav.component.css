@@ -1,0 +1,17 @@
+*{
+  color: white;
+}
+.container {
+  height: 85%;
+ 
+  background-color: rgb(77, 75, 75);
+}
+.container_nav {
+  background-color: #444044;  
+}
+.a-components{
+    color: white;
+}
+i{
+  padding-right: .6rem;
+}
