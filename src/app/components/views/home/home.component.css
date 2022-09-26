@@ -1,20 +1,23 @@
-*{
-    justify-content: center;
-    text-align: center;
-    background-color: #444044;
-    color: white;
+* {
+  justify-content: center;
+  text-align: center;
+  background-color: #444044;
+  color: white;
 }
-.home{
-    width: 95%;
-    margin: 1rem auto;
+.home {
+  width: 95%;
+  margin: 1rem auto;
 }
-@media (max-width:450px){
-    .home{
-        width: 70%;
-    }    
+
+@media (max-width: 450px) {
+  .home {
+    width: 50%;
+    font-size: 10px;
+  }
 }
-@media (max-width:770px){
-    .home{
-        width: 80%;
-    }    
+@media (max-width: 770px) {
+  .home {
+    width: 70%;
+  }
 }
+
