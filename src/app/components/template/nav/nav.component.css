@@ -15,3 +15,13 @@
 i{
   padding-right: .6rem;
 }
+
+@media (max-width:450px){
+  i{
+    padding-right: .3rem;
+  }
+  .a-components{
+    color: white;
+    font-size: 14px;
+}
+}

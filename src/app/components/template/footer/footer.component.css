@@ -7,3 +7,9 @@
    background-color: #201F20;
    color: rgb(178, 180, 182);
 }
+@media (max-width:450px){
+    .footer{
+        font-size: 7px;
+    }
+    
+}
