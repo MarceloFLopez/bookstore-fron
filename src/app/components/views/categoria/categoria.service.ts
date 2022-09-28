@@ -1,4 +1,4 @@
-import { Categoria } from "./categoria-read/categoria.model";
+import { Categoria } from "./categoria.model";
 import { HttpClient } from "@angular/common/http";
 import { Injectable } from "@angular/core";
 import { Observable } from "rxjs";
@@ -13,7 +13,7 @@ export class CategoriaService {
   constructor(private http: HttpClient) {}
 
   findAll(): Observable<Categoria[]> {
-    const url = `${this.baseUrl}/categorias`;
+    const url = `${this.baseUrl}categorias`;
     return this.http.get<Categoria[]>(url);
   }
 }

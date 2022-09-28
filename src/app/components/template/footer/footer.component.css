@@ -7,9 +7,13 @@
   justify-content: flex-end;
   color: rgb(178, 180, 182);
 }
+a{
+  text-decoration: none;
+}
 
 @media (max-width: 450px) {
   .footer {
     font-size: 7px;
   }
 }
+
